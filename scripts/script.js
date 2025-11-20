@@ -7,11 +7,11 @@ const priceRicemeals = ["350","300","320","330","340","300","400"];
 const menuSushi = ["California Maki", "Spicy Tuna Maki", "Salmon Nigiri", "Ebi Nigiri", "Unagi Nigiri", "Tamagoyaki"];
 const priceSushi = ["250","270","300","280","320","200"];
 
-const menuSalmonSeries = ["Salmon Tartare", "Salmon Roll", "Salmon Kani Roll"];
-const priceSalmonSeries = ["450","500","375"];
+const menuSalmonSeries = ["Salmon Tartare", "Salmon Roll", "Spicy Salmon Roll", "Salmon Kani Roll"];
+const priceSalmonSeries = ["450","500","450","375"];
 
-const menuAppetizers = ["Okonomiyaki","Yakisoba", "Miso Soup","Cheese Gyoza", "Korokke Balls(6pcs)"];
-const priceAppetizers = ["210","220","50","240","300"];
+const menuAppetizers = ["Okonomiyaki","Yakisoba", "Miso Soup","Cheese Gyoza", "Korokke Balls(6pcs)","Criss-cut Fries","Fries and Nuggets","Cold Ramen Salad","Kani Mango Salad"];
+const priceAppetizers = ["210","220","50","240","300","150","150","230","240"];
 document.getElementById("ramen-list").innerHTML = menuRamen.map((item, i) => `<tr><td>${item}</td><td>${priceRamen[i]}</td></tr>`).join("");
 document.getElementById("ricemeals-list").innerHTML = menuRicemeals.map((item, i) => `<tr><td>${item}</td><td>${priceRicemeals[i]}</td></tr>`).join("");
 document.getElementById("sushi-list").innerHTML = menuSushi.map((item, i) => `<tr><td>${item}</td><td>${priceSushi[i]}</td></tr>`).join("");

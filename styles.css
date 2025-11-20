@@ -34,8 +34,9 @@ body {
 }
 
 .content table, tr, th{
-  margin-left:35%;
+  margin-left:48%;
   margin-right:auto;
+  width: 300px;
   font-family: 'Arial Black', Gadget, sans-serif;
   font-size: 23px;
   padding: 15px;
