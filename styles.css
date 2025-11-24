@@ -33,6 +33,17 @@ body {
   float: left;
 }
 
+.content button{
+  margin-left:48%;
+  margin-right:auto;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  
+  background-color:rgb(41, 5, 5);
+}
+
 .content table, tr, th{
   margin-left:48%;
   margin-right:auto;
@@ -43,7 +54,7 @@ body {
   text-align: left;
 }
 
-.content td {
+.content td, a {
 
   font-family: 'Tahoma', sans-serif;
   font-size: 18px;
@@ -57,6 +68,7 @@ body {
   padding: 2px;
   text-align: center;
 }
+
 
 .content p{
   font-family: 'Arial Black', Gadget, sans-serif;
